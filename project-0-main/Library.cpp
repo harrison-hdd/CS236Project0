@@ -63,10 +63,10 @@ void Library::organizeBooksByAuthor() {
 }
 
 void Library::organizeBooksByGenre() {
-    for (Book* book : books) {
+    for (Book* book : books) { //for every book in books. Never seen this kind of loop before
         std::string genre = book->getGenre();
-        std::map<std::string,std::vector<Book*>>::iterator it = booksByGenre.find(genre);
-        if (it == booksByGenre.end()) {
+        std::map<std::string,std::vector<Book*>>::iterator it = booksByGenre.find(genre); //return end() if genre is not in the map
+        if (it == booksByGenre.end()) {// if the genre is not in the map yet
             std::vector<Book*> bookList;
             bookList.push_back(book);
             booksByGenre.insert(std::pair<std::string, std::vector<Book*>>(genre, bookList));
@@ -74,6 +74,8 @@ void Library::organizeBooksByGenre() {
         else {
             std::vector<Book*> bookList = it->second;
             bookList.push_back(book);
+            it->second = bookList; //wasn't here before
+//            it->second.push_back(book); //would have worked here too.
         }
     }
 }

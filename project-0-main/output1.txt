@@ -1,43 +1,41 @@
 Books, Organized By Author
-	Lemony Snicket
-		A Series of Unfortunate Events: The Bad Beginning by Lemony Snicket
+	Brandon Mull
+		Fablehaven by Brandon Mull
 		---
 		Number of books: 1
-		Number of pages: 2
+		Number of pages: 0
 		Number of hours: 0
 
-	Michael J. Sullivan
-		Theft of Swords by Michael J. Sullivan
-		Rise of Empire by Michael J. Sullivan
-		Heir of Novron by Michael J. Sullivan
-		---
-		Number of books: 3
-		Number of pages: 971
-		Number of hours: 0
-
-	Pam Munoz Ryan
-		Echo by Pam Munoz Ryan
+	Brandon Sanderson
+		Alcatraz and the Evil Librarians by Brandon Sanderson
 		---
 		Number of books: 1
-		Number of pages: 4
-		Number of hours: 0
+		Number of pages: 320
+		Number of hours: 1.6
 
-	Patrick Rothfuss
-		The Name of the Wind by Patrick Rothfuss
+	James Dashner
+		The Maze Runner by James Dashner
 		---
 		Number of books: 1
-		Number of pages: 7
+		Number of pages: 0
 		Number of hours: 0
 
-	Pseudonymous Bosch
-		The Name of this Book is Secret by Pseudonymous Bosch
+	Jennifer A. Nielsen
+		The False Prince by Jennifer A. Nielsen
 		---
 		Number of books: 1
-		Number of pages: 4
+		Number of pages: 352
 		Number of hours: 0
 
-	Ransom Riggs
-		Miss Peregrine's Home for Peculiar Children by Ransom Riggs
+	Martine Leavitt
+		Keturah and Lord Death by Martine Leavitt
+		---
+		Number of books: 1
+		Number of pages: 0
+		Number of hours: 0
+
+	Obert Skye
+		Leven Thumps and the Gateway to Foo by Obert Skye
 		---
 		Number of books: 1
 		Number of pages: 0
@@ -45,30 +43,28 @@ Books, Organized By Author
 
 
 Books, Organized By Genre
-	fantasy
-		The Name of the Wind by Patrick Rothfuss
+	dystopian
+		The Maze Runner by James Dashner
 		---
 		Number of books: 1
-		Number of pages: 7
+		Number of pages: 0
 		Number of hours: 0
+
+	fantasy
+		Alcatraz and the Evil Librarians by Brandon Sanderson
+		The False Prince by Jennifer A. Nielsen
+		Fablehaven by Brandon Mull
+		Leven Thumps and the Gateway to Foo by Obert Skye
+		---
+		Number of books: 4
+		Number of pages: 672
+		Number of hours: 1.6
 
 	fiction
-		A Series of Unfortunate Events: The Bad Beginning by Lemony Snicket
+		Keturah and Lord Death by Martine Leavitt
 		---
 		Number of books: 1
-		Number of pages: 2
+		Number of pages: 0
 		Number of hours: 0
 
-	historical fiction
-		Echo by Pam Munoz Ryan
-		---
-		Number of books: 1
-		Number of pages: 4
-		Number of hours: 0
 
-	uncategorized
-		Heir of Novron by Michael J. Sullivan
-		---
-		Number of books: 1
-		Number of pages: 960
-		Number of hours: 0

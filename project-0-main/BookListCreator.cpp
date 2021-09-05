@@ -12,5 +12,5 @@ std::vector<Book*> BookListCreator::createBookList() {
         Book* book = bookCreator.createBook();
         bookList.push_back(book);
     }
-    return bookList;
+    return bookList; //vector of book pointers
 }

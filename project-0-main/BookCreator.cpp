@@ -64,7 +64,7 @@ Book* BookCreator::createBook() {
                 if (book->hasHours()) {
                     throw "Hours can not be set twice for the same book.";
                 }
-                book->setPages(info.getInfo());
+                book->setHours(info.getInfo());// was setPages before
             }
             else if (check(info, Info::PAGES)) {
                 if (book->hasPages()) {
@@ -89,8 +89,8 @@ bool BookCreator::hasMoreBooksToCreate() {
 Info BookCreator::extractInfo(std::string line) {
     int pos = line.find(' ');
 
-    std::string firstWord = line.substr(0, pos);
-    std::string restOfString = line.substr(pos + 1);
+    std::string firstWord = line.substr(0, pos); //get type (title, author, etc)
+    std::string restOfString = line.substr(pos + 1); // get info (actual title, author's name, etc)
 
     if (firstWord.at(firstWord.length() - 1) == ':') {
         firstWord = firstWord.substr(0, firstWord.length() - 1);
